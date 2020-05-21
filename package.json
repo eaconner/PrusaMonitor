@@ -15,14 +15,11 @@
     "url": "git+https://github.com/eaconner/PrusaMonitor.git"
   },
   "keywords": [
-    "Prusa",
-    "MK3S",
-    "3D",
-    "Printer",
-    "Print",
-    "Monitor",
-    "SerialPort",
-    "Node.js"
+    "prusa",
+    "prusa-i3-mk3s",
+    "print-monitor",
+    "serialport",
+    "nodejs"
   ],
   "author": "EricConner.net",
   "license": "ISC",
