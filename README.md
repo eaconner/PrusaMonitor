@@ -12,13 +12,13 @@ Currently the server returns a simple JSON string with the status of the printer
 
 ```json
 {
-    isPrinting: true,
-    printComplete: false,
-    fileName: "compli~2.gco",
-    fileSize: 1296528,
-    percent: 83,
-    timeRemaining: 11,
-    timeTotal: 71
+    "isPrinting": true,
+    "printComplete": false,
+    "fileName": "compli~2.gco",
+    "fileSize": 1296528,
+    "percent": 83,
+    "timeRemaining": 11,
+    "timeTotal": 71
 }
 ```
 
