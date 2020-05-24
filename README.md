@@ -12,13 +12,24 @@ Currently the server returns a simple JSON string with the status of the printer
 
 ```json
 {
-    "isPrinting": true,
-    "printComplete": false,
-    "fileName": "compli~2.gco",
-    "fileSize": 1296528,
-    "percent": 83,
-    "timeRemaining": 11,
-    "timeTotal": 71
+    "printerReady": true,
+    "isPrinting": false,
+    "printComplete": true,
+    "fileName": "",
+    "fileSize": "0",
+    "printMode": "normal",
+    "normal": {
+        "percent": "0",
+        "remaining": "0",
+        "total": "0"
+    },
+    "silent": {
+        "percent": "0",
+        "remaining": "0",
+        "total": "0"
+    },
+    "bedTemp": "0",
+    "extruderTemp": "0"
 }
 ```
 
