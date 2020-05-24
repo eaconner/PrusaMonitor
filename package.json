@@ -4,6 +4,7 @@
   "description": "Print monitor for Prusa i3 MK3S",
   "main": "app.js",
   "dependencies": {
+    "delay": "^4.3.0",
     "serialport": "^9.0.0"
   },
   "devDependencies": {},
